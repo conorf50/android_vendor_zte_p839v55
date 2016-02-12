@@ -519,7 +519,6 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    vendor/zte/p839v55/proprietary/bin//sensord:system/bin/sensord \
     vendor/zte/p839v55/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so
 
 # Thermal
