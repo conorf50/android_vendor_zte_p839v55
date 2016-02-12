@@ -548,14 +548,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/p839v55/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/zte/p839v55/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
 
-# Widevine firmware
-PRODUCT_COPY_FILES += \
-    vendor/zte/p839v55/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
-    vendor/zte/p839v55/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
-    vendor/zte/p839v55/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
-    vendor/zte/p839v55/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
-    vendor/zte/p839v55/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt
-
 # Wifi
 PRODUCT_COPY_FILES += \
     vendor/zte/p839v55/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
