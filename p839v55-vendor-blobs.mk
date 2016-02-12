@@ -554,11 +554,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/p839v55/proprietary/bin/wcnss_service:system/bin/wcnss_service   \
     vendor/zte/p839v55/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko
     
-# Misc
-PRODUCT_COPY_FILES += \
-    vendor/zte/p839v55/proprietary/bin/adjust_serialno:system/bin/adjust_serialno \
-    vendor/zte/p839v55/proprietary/bin/adjust_settings:system/bin/adjust_settings
-
 # Lights
 PRODUCT_COPY_FILES += \
     vendor/zte/p839v55/proprietary/lib/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so
