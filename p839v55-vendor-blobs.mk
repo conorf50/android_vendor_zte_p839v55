@@ -53,8 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/p839v55/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/zte/p839v55/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/zte/p839v55/proprietary/vendor/lib/soundfx/libhwdap.so:system/vendor/lib/soundfx/libhwdap.so \
-    vendor/zte/p839v55/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so \
-    vendor/zte/p839v55/proprietary/vendor/lib/hw/sound_trigger.primary.msm8916.so:system/vendor/lib/hw/sound_trigger.primary.msm8916.so
+    vendor/zte/p839v55/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
@@ -65,7 +64,6 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_COPY_FILES += \
     vendor/zte/p839v55/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/zte/p839v55/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/zte/p839v55/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/zte/p839v55/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/zte/p839v55/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -551,12 +549,13 @@ PRODUCT_COPY_FILES += \
 # Wifi
 PRODUCT_COPY_FILES += \
     vendor/zte/p839v55/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
-    vendor/zte/p839v55/proprietary/bin/wcnss_service:system/bin/wcnss_service   \
-    vendor/zte/p839v55/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko
+    vendor/zte/p839v55/proprietary/bin/wcnss_service:system/bin/wcnss_service
+
+#    vendor/zte/p839v55/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko
     
 # Lights
-PRODUCT_COPY_FILES += \
-    vendor/zte/p839v55/proprietary/lib/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so
+#PRODUCT_COPY_FILES += \
+#    vendor/zte/p839v55/proprietary/lib/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so
 
 # others
 PRODUCT_COPY_FILES += \
@@ -598,9 +597,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/p839v55/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
     vendor/zte/p839v55/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
     vendor/zte/p839v55/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
-    vendor/zte/p839v55/proprietary/vendor/lib/liblocationext.so:system/vendor/lib/liblocationext.so \
-    vendor/zte/p839v55/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
-    vendor/zte/p839v55/proprietary/vendor/lib/libloc_xtra.so:system/vendor/lib/libloc_xtra.so \
     vendor/zte/p839v55/proprietary/vendor/lib/libmasc.so:system/vendor/lib/libmasc.so \
     vendor/zte/p839v55/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
     vendor/zte/p839v55/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
