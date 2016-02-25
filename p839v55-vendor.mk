@@ -23,4 +23,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libtime_genoff
 
+PRODUCT_PACKAGES += \
+    libloc_api_v02 \
+    libloc_ds_api
+
+
 $(call inherit-product, vendor/zte/p839v55/p839v55-vendor-blobs.mk)
