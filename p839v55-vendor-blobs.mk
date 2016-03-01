@@ -466,9 +466,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/zte/p839v55/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so
 
-PRODUCT_COPY_FILES += \
-    vendor/zte/p839v55/proprietary/lib/hw/nfc_nci.pn54x.default.so:system/lib/hw/nfc_nci.pn54x.default.so
-
 # Perf
 PRODUCT_COPY_FILES += \
     vendor/zte/p839v55/proprietary/bin/perfd:system/bin/perfd \
@@ -559,6 +556,10 @@ PRODUCT_COPY_FILES += \
 
 # others
 PRODUCT_COPY_FILES += \
+    vendor/zte/p839v55/proprietary/vendor/etc/calib_t60.cfg:system/vendor/etc/calib_t60.cfg \
+    vendor/zte/p839v55/proprietary/vendor/etc/calib_v55.cfg:system/vendor/etc/calib_v55.cfg \
+    vendor/zte/p839v55/proprietary/vendor/etc/calmodule.cfg:system/vendor/etc/calmodule.cfg \
+    vendor/zte/p839v55/proprietary/vendor/etc/pdc.txt:system/vendor/etc/pdc.txt \
     vendor/zte/p839v55/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/zte/p839v55/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/zte/p839v55/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
@@ -566,6 +567,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/p839v55/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
     vendor/zte/p839v55/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/zte/p839v55/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+    vendor/zte/p839v55/proprietary/vendor/lib/libcalmodule_akm.so:system/vendor/lib/libcalmodule_akm.so \
     vendor/zte/p839v55/proprietary/vendor/lib/libcalmodule_common.so:system/vendor/lib/libcalmodule_common.so \
     vendor/zte/p839v55/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
     vendor/zte/p839v55/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
