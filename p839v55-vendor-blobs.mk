@@ -551,8 +551,7 @@ PRODUCT_COPY_FILES += \
 # Wifi
 PRODUCT_COPY_FILES += \
     vendor/zte/p839v55/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
-    vendor/zte/p839v55/proprietary/bin/wcnss_service:system/bin/wcnss_service   \
-    vendor/zte/p839v55/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko
+    vendor/zte/p839v55/proprietary/bin/wcnss_service:system/bin/wcnss_service
     
 # Lights
 PRODUCT_COPY_FILES += \
