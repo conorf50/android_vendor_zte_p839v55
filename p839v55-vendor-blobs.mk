@@ -526,6 +526,8 @@ PRODUCT_COPY_FILES += \
 
 # Time services
 PRODUCT_COPY_FILES += \
+    vendor/zte/p839v55/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
+    vendor/zte/p839v55/proprietary/app/TimeService/arm/TimeService.odex:system/app/TimeService/arm/TimeService.odex \
     vendor/zte/p839v55/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/zte/p839v55/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/zte/p839v55/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so
