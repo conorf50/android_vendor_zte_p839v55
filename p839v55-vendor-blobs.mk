@@ -553,8 +553,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/p839v55/proprietary/bin/wcnss_service:system/bin/wcnss_service
     
 # Lights
-PRODUCT_COPY_FILES += \
-    vendor/zte/p839v55/proprietary/lib/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so
+#PRODUCT_COPY_FILES += \
+#    vendor/zte/p839v55/proprietary/lib/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so
 
 # others
 PRODUCT_COPY_FILES += \
