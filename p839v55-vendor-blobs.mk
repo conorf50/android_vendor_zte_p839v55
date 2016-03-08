@@ -65,11 +65,6 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_COPY_FILES += \
     vendor/zte/p839v55/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/zte/p839v55/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
-    vendor/zte/p839v55/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/zte/p839v55/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/zte/p839v55/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/zte/p839v55/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/zte/p839v55/proprietary/vendor/lib/libactuator_a3907_camcorder.so:system/vendor/lib/libactuator_a3907_camcorder.so \
     vendor/zte/p839v55/proprietary/vendor/lib/libactuator_a3907_camera.so:system/vendor/lib/libactuator_a3907_camera.so \
     vendor/zte/p839v55/proprietary/vendor/lib/libactuator_a3907.so:system/vendor/lib/libactuator_a3907.so \
@@ -374,7 +369,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/p839v55/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/zte/p839v55/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/zte/p839v55/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
-    vendor/zte/p839v55/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so
+    vendor/zte/p839v55/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/zte/p839v55/proprietary/vendor/lib/libZEffectLib.so:system/vendor/lib/libZEffectLib.so
 
 # Camera firmware
 PRODUCT_COPY_FILES += \
