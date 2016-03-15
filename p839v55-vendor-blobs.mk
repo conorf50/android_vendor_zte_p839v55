@@ -494,11 +494,13 @@ PRODUCT_COPY_FILES += \
 
 # Radio
 PRODUCT_COPY_FILES += \
+    vendor/zte/p839v55/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/zte/p839v55/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/zte/p839v55/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/zte/p839v55/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/zte/p839v55/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/zte/p839v55/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/zte/p839v55/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/zte/p839v55/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/zte/p839v55/proprietary/bin/radish:system/bin/radish \
     vendor/zte/p839v55/proprietary/bin/rfs_access:system/bin/rfs_access \
