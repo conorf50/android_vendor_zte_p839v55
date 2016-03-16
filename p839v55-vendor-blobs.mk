@@ -495,6 +495,7 @@ PRODUCT_COPY_FILES += \
 # Radio
 PRODUCT_COPY_FILES += \
     vendor/zte/p839v55/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
+    vendor/zte/p839v55/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/zte/p839v55/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/zte/p839v55/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/zte/p839v55/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
@@ -515,6 +516,23 @@ PRODUCT_COPY_FILES += \
     vendor/zte/p839v55/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/zte/p839v55/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/zte/p839v55/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
+
+# other things
+PRODUCT_COPY_FILES += \
+    vendor/zte/p839v55/proprietary/vendor/lib/libmmi.so:system/vendor/lib/libmmi.so \
+    vendor/zte/p839v55/proprietary/vendor/lib/libzte_nv.so:system/vendor/lib/libzte_nv.so \
+    vendor/zte/p839v55/proprietary/vendor/lib/mmi_audio.so:system/vendor/lib/mmi_audio.so \
+    vendor/zte/p839v55/proprietary/vendor/lib/mmi_camera_front.so:system/vendor/lib/mmi_camera_front.so \
+    vendor/zte/p839v55/proprietary/vendor/lib/mmi_camera.so:system/vendor/lib/mmi_camera.so \
+    vendor/zte/p839v55/proprietary/vendor/lib/mmi_flashlight.so:system/vendor/lib/mmi_flashlight.so \
+    vendor/zte/p839v55/proprietary/vendor/lib/mmi_fm.so:system/vendor/lib/mmi_fm.so \
+    vendor/zte/p839v55/proprietary/vendor/lib/mmi_keybacklight.so:system/vendor/lib/mmi_keybacklight.so \
+    vendor/zte/p839v55/proprietary/vendor/lib/mmi_led.so:system/vendor/lib/mmi_led.so \
+    vendor/zte/p839v55/proprietary/vendor/lib/mmi_product.so:system/vendor/lib/mmi_product.so \
+    vendor/zte/p839v55/proprietary/vendor/lib/mmi_ring.so:system/vendor/lib/mmi_ring.so \
+    vendor/zte/p839v55/proprietary/vendor/lib/mmi_sdcard.so:system/vendor/lib/mmi_sdcard.so \
+    vendor/zte/p839v55/proprietary/vendor/lib/mmi_sensor.so:system/vendor/lib/mmi_sensor.so \
+    vendor/zte/p839v55/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so
 
 # Sensors
 PRODUCT_COPY_FILES += \
