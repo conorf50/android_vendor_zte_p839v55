@@ -519,6 +519,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/p839v55/proprietary/bin/radish:system/bin/radish \
     vendor/zte/p839v55/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/zte/p839v55/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/zte/p839v55/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/zte/p839v55/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/zte/p839v55/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/zte/p839v55/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/zte/p839v55/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
